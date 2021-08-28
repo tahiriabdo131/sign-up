@@ -221,7 +221,7 @@ a:hover {
 /* The Card of Image */
 
 .img-card {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/image.PNG');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://raw.githubusercontent.com/tahiriabdo131/sign-up.github.io/main/assets/images/image.PNG');
     background-size: cover;
 }
 
