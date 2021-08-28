@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="keywords" content="PAUL & JOSE, Signup, Create Acount, Entretien, Test intégration, Front-End, Recrutement, Test technique, Registre">
+    <meta name="description" content="Welcome to Jose Paul, at sign up where you can create an account &amp;">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Registre</title>
+</head>
+
+<body>
+    <!-- Sign up-->
+    <section class="signup-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 card">
+                            <div class="div-icon-user">
+                                <span>
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <h4 class="form-title">Inscrivez-vous</h4>
+                            <span class="span-below-title">Créez un compte gratuit sur Futur Digital</span>
+                            <!-- Start Form -->
+                            <form onsubmit="validationInputs();return false;">
+                                <div class="form-group form__div">
+                                    <input type="text" class="form-control " placeholder=" " id="fullName" name="fullName" required>
+                                    <label for="" class="form__label">Nom complet</label>
+                                </div>
+
+                                <!-- Valiation Full Name-->
+                                <div class="div-validation" id="fullName-validation">
+                                    <span class="span-validation" id="span-fullName"></span>
+                                </div>
+
+                                <div class="form-group form__div">
+                                    <input type="email" class="form-control" placeholder=" " id="email" name="email" required>
+                                    <label for="" class="form__label">Adresse e-mail</label>
+                                </div>
+
+                                <div class="form-group form__div">
+                                    <input type="password" class="form-control " placeholder=" " id="password" name="password" required>
+                                    <label for="" class="form__label">Mot de passe</label>
+                                    <span class="p-viewer">
+                                        <i class="fa fa-eye-slash" id="togglePassword"></i>
+                                    </span>
+                                </div>
+
+                                <div class="div-password-size" id="div-password-size">
+                                    <span id="password-size">Le mot de passe doit comporter entre 4 et 6
+                                        caractéres</span>
+                                </div>
+
+                                <!-- Valiation Password-->
+                                <div class="div-validation" id="password-validation">
+                                    <span class="span-validation" id="span-password"></span>
+                                </div>
+
+                                <div class="form-group form__div">
+                                    <input type="password" class="form-control " placeholder=" " id="confirmPassword" name="confirmPassword" required>
+                                    <label for="" class="form__label">Confirmer le mot de passe</label>
+                                    <span class="p-viewer">
+                                        <i class="fa fa-eye-slash" id="toggleConfirmPassword"></i>
+                                    </span>
+                                </div>
+
+                                <!-- Valiation Confirm Password-->
+                                <div class="div-validation" id="confirmPassword-validation">
+                                    <span class="span-validation" id="span-confirmPassword"></span>
+                                </div>
+
+                                <!-- CheckBox-->
+                                <div class="form-group form-check">
+                                    <span class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="remember" required>
+                                        <span>J'ai accepté les </span>
+                                    <!-- Link To Rules -->
+                                    <a href="https://www.pauletjose.ma/mentions-legales.html" target="_blank">
+                                                conditions générales
+                                        </a>
+                                    </span>
+                                </div>
+
+                                <!-- Submition Button -->
+                                <button type="submit" class="btn btn-danger btn-block">
+                                    S'INSCRIRE
+                                </button>
+                            </form>
+                            <!-- End Form-->
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 card img-card">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap JS File -->
+    <link rel="stylesheet" href="assets/js/bootstrap/bootstrap.min.js">
+    <!-- Main Script File  -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
